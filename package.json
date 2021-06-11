@@ -1,0 +1,24 @@
+{
+  "name": "typescript-hello-world",
+  "version": "1.0.0",
+  "description": "A hello world project with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasannajit/typescript-hello-world.git"
+  },
+  "author": "prasannajit.tripathy@tesco.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasannajit/typescript-hello-world/issues"
+  },
+  "homepage": "https://github.com/prasannajit/typescript-hello-world#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.3.2"
+  }
+}
